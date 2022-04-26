@@ -1,0 +1,1779 @@
+{
+  "informations": [
+    {
+      "author": "unknown",
+      "time": 1650708584
+    }
+  ],
+  "modules": [
+    {
+      "moduleName": "Teleport",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Latest Verus",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Teleport Aura",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "CPS",
+          "type": "slider",
+          "value": 5.0
+        },
+        {
+          "name": "Targets",
+          "type": "slider",
+          "value": 1.0
+        },
+        {
+          "name": "Range",
+          "type": "slider",
+          "value": 50.0
+        },
+        {
+          "name": "No Swing",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Auto Damage",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Auto Gapple",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 50.0
+        },
+        {
+          "name": "Health",
+          "type": "slider",
+          "value": 5.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Auto Sword",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Criticals",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "packet"
+        },
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 750.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Kill Aura",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "switch"
+        },
+        {
+          "name": "State",
+          "type": "enum",
+          "value": "pre"
+        },
+        {
+          "name": "Auto Block",
+          "type": "enum",
+          "value": "fake"
+        },
+        {
+          "name": "Switch Delay",
+          "type": "slider",
+          "value": 50.0
+        },
+        {
+          "name": "Auto Block Range",
+          "type": "slider",
+          "value": 4.0
+        },
+        {
+          "name": "Range",
+          "type": "slider",
+          "value": 3.6
+        },
+        {
+          "name": "CPS",
+          "type": "slider",
+          "value": 11.0
+        },
+        {
+          "name": "Keep Sprint",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Ray Cast",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "1.9+",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Blink First Hit",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Attack with scaffold on",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Rotations",
+          "type": "enum",
+          "value": "none"
+        },
+        {
+          "name": "Turn Speed",
+          "type": "slider",
+          "value": 90.0
+        },
+        {
+          "name": "Randomize Yaw",
+          "type": "slider",
+          "value": 0.0
+        },
+        {
+          "name": "Movement Fix",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "GCD",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Sort by",
+          "type": "enum",
+          "value": "health"
+        },
+        {
+          "name": "Players",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Mobs",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Passives",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Teams",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Dead",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Through Walls",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Jello ESP",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Velocity",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "packet"
+        },
+        {
+          "name": "Horizontal",
+          "type": "slider",
+          "value": 0.0
+        },
+        {
+          "name": "Vertical",
+          "type": "slider",
+          "value": 0.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Anti Bot",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "hypixel"
+        },
+        {
+          "name": "Remove",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Auto Pot",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Health",
+          "type": "slider",
+          "value": 10.0
+        },
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 500.0
+        },
+        {
+          "name": "Heal",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Speed",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Soup",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Infinite Chat",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Ping Spoof",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 100.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Disabler",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "blocksmc"
+        },
+        {
+          "name": "Transaction Mode",
+          "type": "enum",
+          "value": "delay"
+        },
+        {
+          "name": "Fly B and F Disabler",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Fast Bow",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Crasher",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "bungeecord flood"
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "No Clip",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Blink",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Blink Delay",
+          "type": "slider",
+          "value": 500.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Phase",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "clip"
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Target Strafe",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Distance",
+          "type": "slider",
+          "value": 0.9
+        },
+        {
+          "name": "Hold Space",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Fall Check",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Wall Check",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Speed Only",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "High Jump",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "vanilla"
+        },
+        {
+          "name": "Motion Y",
+          "type": "slider",
+          "value": 1.0
+        },
+        {
+          "name": "Latest Verus",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Long Jump",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "verus"
+        },
+        {
+          "name": "Speed",
+          "type": "slider",
+          "value": 5.5
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "No Slow",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "ncp"
+        },
+        {
+          "name": "Swords",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Consumables",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Potions",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Bow",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Flight",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "astral"
+        },
+        {
+          "name": "Damage",
+          "type": "enum",
+          "value": "basic"
+        },
+        {
+          "name": "Speed",
+          "type": "slider",
+          "value": 9.5
+        },
+        {
+          "name": "V Clip",
+          "type": "slider",
+          "value": 1.0
+        },
+        {
+          "name": "Funcraft Speed",
+          "type": "slider",
+          "value": 1.1
+        },
+        {
+          "name": "Funcraft Timer Speed",
+          "type": "slider",
+          "value": 1.0
+        },
+        {
+          "name": "Bobbing",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Cancel Packets",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Timer Bypass",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Verus Heavy",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Latest Verus",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Motion Graph",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Sprint",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Omni",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Spider",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "verus"
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Speed",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "verus"
+        },
+        {
+          "name": "Speed",
+          "type": "slider",
+          "value": 0.6000000000000001
+        },
+        {
+          "name": "24 BPS",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "BHop",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Glide",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "chunk"
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Step",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "ncp"
+        },
+        {
+          "name": "Height",
+          "type": "slider",
+          "value": 1.6
+        },
+        {
+          "name": "Timer",
+          "type": "slider",
+          "value": 0.9400000000000001
+        },
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 0.1
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Inventory Manager",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "openinv"
+        },
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 70.0
+        },
+        {
+          "name": "Drop Junk",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Lagback Checker",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Inventory Move",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Sneak",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Click Teleport",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Chest Stealer",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 90.0
+        },
+        {
+          "name": "Ignore Junk",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Randomize",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Silent",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Render GUI",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "NCP",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Chat Bypass",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Auto Armor",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "normal"
+        },
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 50.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Speed Mine",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": false
+        }
+      ]
+    },
+    {
+      "moduleName": "Fast Place",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Streamer",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Name",
+          "type": "text",
+          "value": "slt"
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Auto Tool",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "KillSult",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Prefix",
+          "type": "text",
+          "value": "@"
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Anti Void",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "verus"
+        },
+        {
+          "name": "Pullback",
+          "type": "slider",
+          "value": 500.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Spammer",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Text",
+          "type": "text",
+          "value": "use azura x, im sincerely sorry for using lime"
+        },
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 2.5
+        },
+        {
+          "name": "Random Chars Length",
+          "type": "slider",
+          "value": 1.0
+        },
+        {
+          "name": "Random Chars",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Freecam",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Fast Eat",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "No Fall",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "vanilla"
+        },
+        {
+          "name": "Void Check",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Derp",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Rotations Speed",
+          "type": "slider",
+          "value": 50.0
+        },
+        {
+          "name": "Headless",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Sneak",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "MCF",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Block Overlay",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "No Scoreboard",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Item Physics",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Projectiles",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Animations",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "exhibition2"
+        },
+        {
+          "name": "Swing Slowdown",
+          "type": "slider",
+          "value": 1.8
+        },
+        {
+          "name": "X",
+          "type": "slider",
+          "value": 0.1
+        },
+        {
+          "name": "Y",
+          "type": "slider",
+          "value": 0.2
+        },
+        {
+          "name": "Z",
+          "type": "slider",
+          "value": 0.2
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Full Bright",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Pointer ESP",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Crosshair",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Thickness",
+          "type": "slider",
+          "value": 1.0
+        },
+        {
+          "name": "Length",
+          "type": "slider",
+          "value": 3.0
+        },
+        {
+          "name": "Gap",
+          "type": "slider",
+          "value": 3.0
+        },
+        {
+          "name": "Outline",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Outline Thickness",
+          "type": "slider",
+          "value": 0.5
+        },
+        {
+          "name": "Dot",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Color",
+          "type": "color",
+          "value": -1
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Dream ESP",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Nametags",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "China Hat",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "ClickGUI",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "framenew"
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Chest ESP",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "No Render",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "TNT",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Enchantment Table",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Tracers",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Camera",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "No Hurt Cam",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "No Fire",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "No FOV",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Chams",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Mode",
+          "type": "enum",
+          "value": "colored"
+        },
+        {
+          "name": "Color",
+          "type": "color",
+          "value": -1315861
+        },
+        {
+          "name": "Only Targets",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Disable Lightning",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "ESP",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Box Mode",
+          "type": "enum",
+          "value": "box"
+        },
+        {
+          "name": "Health bar",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "You",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Players",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Invisibles",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Mobs",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Animals",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Items",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Skeleton",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Width",
+          "type": "slider",
+          "value": 10.0
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "HUD",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Client Name",
+          "type": "text",
+          "value": "\u0000lime users make a good non disabler config challenge (they failed instantly)"
+        },
+        {
+          "name": "Target HUD",
+          "type": "enum",
+          "value": "astolfo"
+        },
+        {
+          "name": "TargetHUD X",
+          "type": "slider",
+          "value": 55.0
+        },
+        {
+          "name": "TargetHUD Y",
+          "type": "slider",
+          "value": 50.0
+        },
+        {
+          "name": "Sidebar",
+          "type": "enum",
+          "value": "right"
+        },
+        {
+          "name": "Names",
+          "type": "enum",
+          "value": "lower case"
+        },
+        {
+          "name": "Color",
+          "type": "enum",
+          "value": "astolfo"
+        },
+        {
+          "name": "Fade Color",
+          "type": "color",
+          "value": -2500645
+        },
+        {
+          "name": "Rect Opacity",
+          "type": "slider",
+          "value": 0.0
+        },
+        {
+          "name": "Custom Font",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Suffix",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Play Time",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Armor HUD",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "BP/S",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "FPS",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": false
+        }
+      ]
+    },
+    {
+      "moduleName": "Time Changer",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Time",
+          "type": "slider",
+          "value": 1000.0
+        },
+        {
+          "name": "Rain",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Scaffold",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "State",
+          "type": "enum",
+          "value": "pre"
+        },
+        {
+          "name": "Rotations",
+          "type": "enum",
+          "value": "none"
+        },
+        {
+          "name": "Item Spoof",
+          "type": "enum",
+          "value": "pick"
+        },
+        {
+          "name": "Tower",
+          "type": "enum",
+          "value": "ncp"
+        },
+        {
+          "name": "Search",
+          "type": "enum",
+          "value": "advanced"
+        },
+        {
+          "name": "Jump",
+          "type": "enum",
+          "value": "normal"
+        },
+        {
+          "name": "Speed Modifier",
+          "type": "slider",
+          "value": 1.4000000000000001
+        },
+        {
+          "name": "Expand",
+          "type": "slider",
+          "value": 0.45
+        },
+        {
+          "name": "Delay",
+          "type": "slider",
+          "value": 0.0
+        },
+        {
+          "name": "Keep Rotations",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Tower Move",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Safewalk",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "No Sprint",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Spoof Sprint",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Same Y",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "No Swing",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Swapper",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Downwards",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Random Vec",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "RayCast",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Slow Speed",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "Block Info",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Block ESP",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "No Rotate",
+      "toggled": true,
+      "settings": [
+        {
+          "name": "Client Side",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Breaker",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Range",
+          "type": "slider",
+          "value": 4.0
+        },
+        {
+          "name": "Rotations",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "No Swing",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Eater",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "Timer",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Timer Speed",
+          "type": "slider",
+          "value": 1.5
+        },
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": false
+        }
+      ]
+    },
+    {
+      "moduleName": "Eagle",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    },
+    {
+      "moduleName": "No C03",
+      "toggled": false,
+      "settings": [
+        {
+          "name": "Show",
+          "type": "bool",
+          "value": true
+        }
+      ]
+    }
+  ]
+}
